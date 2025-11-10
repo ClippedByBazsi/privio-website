@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privio Home</title>
+    <style>
+        body {
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(115deg, #775aab 0%, #b18af9 60%, #ffe8ff 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #381a59;
+        }
+        .wrapper {
+            background: rgba(255,255,255,0.18);
+            box-shadow: 0 8px 32px #ac77e180;
+            border-radius: 30px;
+            padding: 56px 42px 50px 42px;
+            text-align: center;
+            min-width: 350px;
+        }
+        h1 {
+            font-size: 2.7rem;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+            color: #6038b6;
+            text-shadow: 0 2px 18px #cdb1e6bb;
+        }
+        .sub {
+            font-size: 1.1rem;
+            color: #4a2a7e;
+            margin-bottom: 30px;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 34px;
+        }
+        .link-card {
+            background: linear-gradient(95deg,#e3d1fa 40%,#dad4fa 100%);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px #a694ce39;
+            padding: 19px 36px;
+            font-size: 1.12rem;
+            text-decoration: none;
+            color: #5c298b;
+            font-weight: 600;
+            transition: background 0.2s, box-shadow 0.2s;
+        }
+        .link-card:hover {
+            background: #edd5ff;
+            box-shadow: 0 6px 20px #ac86e1b0;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Privio Home</h1>
+        <div class="sub">Start browsing or try some of these quick links:</div>
+        <div class="links">
+            <a class="link-card" href="https://www.google.com">Google</a>
+            <a class="link-card" href="https://www.bing.com">Bing</a>
+            <a class="link-card" href="https://github.com">GitHub</a>
+            <a class="link-card" href="https://www.perplexity.ai">Perplexity</a>
+        </div>
+    </div>
+</body>
+</html>
